@@ -1,0 +1,28 @@
+{
+  "name": "sudoku-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.4.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "prettier": "^2.8.0",
+    "sass": "^1.56.1",
+    "svelte": "^3.53.1",
+    "svelte-check": "^2.10.0",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
+    "sudoku-solver-ts": "^1.0.2"
+  }
+}
